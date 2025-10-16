@@ -1,0 +1,16 @@
+:root { color-scheme: light dark; font-family: Inter, system-ui, Arial, sans-serif; }
+.app { padding: 16px; display: flex; flex-direction: column; gap: 16px; }
+.topbar { display: flex; gap: 12px; align-items: center; justify-content: space-between; }
+.ai-actions { display: flex; gap: 8px; }
+.board { display: flex; flex-direction: column; gap: 12px; }
+.toolbar { display: flex; gap: 8px; }
+.columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.column { background: rgba(127,127,127,0.1); border-radius: 8px; padding: 8px; min-height: 60vh; }
+.droppable { display: flex; flex-direction: column; gap: 8px; min-height: 50vh; }
+.card { background: rgba(255,255,255,0.9); color: #222; border-radius: 8px; padding: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+.title { font-weight: 600; }
+.desc { opacity: 0.8; font-size: 0.9rem; margin-top: 4px; }
+
+
+
+

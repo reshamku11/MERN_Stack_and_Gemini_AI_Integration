@@ -1,0 +1,15 @@
+# Node modules
+client/node_modules/
+server/node_modules/
+
+# Build outputs
+client/dist/
+
+# # Local environment
+# server/.env
+
+# Editor/OS
+.DS_Store
+
+# Cursor workspace
+.cursor/
